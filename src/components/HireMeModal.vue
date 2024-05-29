@@ -68,29 +68,11 @@ export default {
 										inputType="email"
 									/>
 
-									<div class="mt-6 mb-4">
-										<label
-											class="block mb-2 text-lg text-primary-dark dark:text-primary-light"
-											for="project"
-											>Project Type</label
-										>
-										<select
-											class="w-full px-5 py-3 border-1 border-gray-200 dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
-											id="project"
-											name="project"
-											type="text"
-											required=""
-											aria-label="Project Category"
-										>
-											<option
-												v-for="category in categories"
-												:key="category.id"
-												:value="category.value"
-											>
-												{{ category.name }}
-											</option>
-										</select>
-									</div>
+									<FormInput
+										label="Project Type"
+										inputIdentifier="email"
+										inputType="email"
+									/>
 
 									<FormTextarea
 										label="Details"
