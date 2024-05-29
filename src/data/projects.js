@@ -74,6 +74,12 @@ const projects = [
 		category: 'Hardware',
 		img: require('@/assets/images/12.jpg'),
 	},
+	{
+		id: 13,
+		title: 'Hotel Management',
+		category: 'Software',
+		img: require('@/assets/images/hotel.jpg'),
+	},
 ];
 
 export default projects;
